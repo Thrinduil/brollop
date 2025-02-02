@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {CardUi} from "../ui/card.ui";
-import {MatCard, MatCardContent, MatCardHeader, MatCardTitle} from "@angular/material/card";
+import {MatCard, MatCardContent} from "@angular/material/card";
 
 @Component({
   selector: 'app-welcome',
@@ -8,16 +8,11 @@ import {MatCard, MatCardContent, MatCardHeader, MatCardTitle} from "@angular/mat
   imports: [
     CardUi,
     MatCard,
-    MatCardContent,
-    MatCardHeader,
-    MatCardTitle
+    MatCardContent
   ],
   template: `
     <app-card>
       <mat-card>
-        <mat-card-header>
-          <mat-card-title>Var?</mat-card-title>
-        </mat-card-header>
         <mat-card-content>
           <h2>Välkommen på</h2>
           <h1 class="highlight">Matilda och Fredriks</h1>
