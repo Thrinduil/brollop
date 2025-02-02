@@ -4,11 +4,12 @@ import {WhatComponent} from "./whats-up/what.component";
 import {WhereComponent} from "./where/where.component";
 import {WelcomeComponent} from "./welcome/welcome.component";
 import {SleepComponent} from "./sleep/sleep.component";
+import {MiscComponent} from "./misc/misc.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, WhatComponent, WhereComponent, WelcomeComponent, SleepComponent],
+  imports: [CommonModule, WhatComponent, WhereComponent, WelcomeComponent, SleepComponent, MiscComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
