@@ -19,7 +19,7 @@ import {CardUi} from "../ui/card.ui";
           <mat-card-title>Vad händer?</mat-card-title>
         </mat-card-header>
         <mat-card-content>
-          <h1>Lördag</h1>
+          <h3>Lördag</h3>
           <p>Bröllopsdagen inleds med bla bla nånting nånting.</p>
           <ul>
             <li>
@@ -29,7 +29,7 @@ import {CardUi} from "../ui/card.ui";
               <strong>14:00:</strong> Vigselceremoni
             </li>
             <li>
-              <strong>17:00:</strong> Middag och festligheter
+              <strong>17:00:</strong> Middag och festligheter i matsalen
             </li>
             <li>
               <strong>21:30:</strong> Aktiviteter i yogasalen
@@ -41,7 +41,7 @@ import {CardUi} from "../ui/card.ui";
               <strong>01:00:</strong> Baren stänger i yogasalen
             </li>
           </ul>
-          <h1>Söndag</h1>
+          <h3>Söndag</h3>
           <p>Spa och grejer. Kul!</p>
           <ul>
             <li>
