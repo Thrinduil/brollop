@@ -15,7 +15,7 @@ import {MatButton} from "@angular/material/button";
     MatButton
   ],
   template: `
-    <app-card>
+    <app-card id="rsvp-card">
       <mat-card>
         <mat-card-header>
           <mat-card-title>OSA</mat-card-title>

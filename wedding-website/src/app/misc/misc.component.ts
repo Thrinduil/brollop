@@ -13,7 +13,7 @@ import {MatCard, MatCardContent, MatCardHeader, MatCardTitle} from "@angular/mat
     MatCardTitle
   ],
   template: `
-    <app-card>
+    <app-card id="misc-card">
       <mat-card>
         <mat-card-header>
           <mat-card-title>Övrigt</mat-card-title>

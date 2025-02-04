@@ -13,7 +13,7 @@ import {CardUi} from "../ui/card.ui";
     CardUi
   ],
   template: `
-    <app-card>
+    <app-card id="what-card">
       <mat-card>
         <mat-card-header>
           <mat-card-title>Vad händer?</mat-card-title>
